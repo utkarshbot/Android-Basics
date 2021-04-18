@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#F7DC6F"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="Relative Layout"
+        android:fontFamily="sans-serif-light"
+        android:textFontWeight="900"
+        android:textSize="30dp"
+        android:gravity="left"
+        android:textColor="#B7950B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="#F9E79F"
+        android:text="RelativeLayout is a view group that displays child views in relative positions. The position of each view can be specified as relative to sibling elements (such as to the left-of or below another view) or in positions relative to the parent RelativeLayout area (such as aligned to the bottom, left or center)."
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="Sample Code"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/white"
+        android:textFontWeight="900"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:src="@drawable/relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

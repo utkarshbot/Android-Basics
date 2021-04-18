@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#F5B7B1"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="Grid Layout"
+        android:fontFamily="sans-serif-light"
+        android:textFontWeight="900"
+        android:textSize="30dp"
+        android:gravity="left"
+        android:textColor="#E74C3C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="#FADBD8"
+        android:text="A layout that places its children in a rectangular grid.
+
+The grid is composed of a set of infinitely thin lines that separate the viewing area into cells. Throughout the API, grid lines are referenced by grid indices. A grid with N columns has N + 1 grid indices that run from 0 through N inclusive. Regardless of how GridLayout is configured, grid index 0 is fixed to the leading edge of the container and grid index N is fixed to its trailing edge (after padding is taken into account)."
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="No Sample Code Available at this moment!"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/white"
+        android:textFontWeight="600"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

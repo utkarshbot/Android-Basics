@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFE74"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".chapterDatePicker">
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="DatePicker"
+        android:textColor="#AFAE19"
+        android:textFontWeight="800"
+        android:fontFamily="sans-serif-light"
+        android:textSize="30dp"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <ScrollView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:padding="10dp"
+        android:background="#FFFEB6"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Android Date Picker allows you to select the date consisting of day, month and year in your custom user interface. For this functionality android provides DatePicker and DatePickerDialog components."
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:id="@+id/android"
+                app:lottie_rawRes="@raw/calander"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"/>
+            <DatePicker
+                android:calendarTextColor="@color/black"
+                android:id="@+id/pickDate"
+                android:background="#FFFEB6"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/date"
+                android:textColor="#AFAE19"
+                android:textFontWeight="800"
+                android:fontFamily="sans-serif-light"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#AED6F1"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="Linear Layout"
+        android:fontFamily="sans-serif-light"
+        android:textFontWeight="900"
+        android:textSize="30dp"
+        android:gravity="left"
+        android:textColor="#3498DB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="#D6EAF8"
+        android:text="LinearLayout is a view group that aligns all children in a single direction, vertically or horizontally. You can specify the layout direction with the android:orientation attribute.To control how linear layout aligns all the views it contains, set a value for android:gravity."
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="40dp"
+        android:text="Sample Code"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/white"
+        android:textFontWeight="900"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+        <ImageView
+            android:src="@drawable/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

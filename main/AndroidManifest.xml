@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ca3">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CA3">
+        <activity android:name=".chapterExternalStorage"></activity>
+        <activity android:name=".chapterProgrees" />
+        <activity android:name=".chapterInternalStorage" />
+        <activity android:name=".chapterNavigation" />
+        <activity android:name=".exampleShared" />
+        <activity android:name=".chapterSharedPrefernce" />
+        <activity android:name=".chapterDatePicker" />
+        <activity android:name=".chapterFragment" />
+        <activity android:name=".chapterAlarm" />
+        <activity android:name=".chapterNotification" />
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".chapterLayout" />
+        <activity android:name=".MainActivity" />
+
+        <receiver android:name=".AlarmBroadcaster" />
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/Settings"
+        android:title="Settings"
+        android:icon="@drawable/settings"/>
+    <item
+        android:id="@+id/Notifications"
+        android:title="Notifications"
+        android:icon="@drawable/notifications"/>
+     <item
+         android:id="@+id/Subscriptions"
+         android:title="Subscriptions"
+         android:icon="@drawable/subscriptions"/>
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:title="Share App"
+                android:icon="@drawable/share"/>
+        </menu>
+    </item>
+
+</menu>
